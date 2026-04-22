@@ -1,0 +1,71 @@
+{
+  "id": "/",
+  "name": "Jadwalku – Asisten Kampus & Kerja",
+  "short_name": "Jadwalku",
+  "description": "Aplikasi pencatat tugas kuliah, jadwal kuliah, dan jadwal kerja. Kelola deadline, jadwal, dan produktivitasmu dalam satu tempat.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "prefer_related_applications": false,
+  "background_color": "#f8f5ff",
+  "theme_color": "#e879a0",
+  "orientation": "portrait",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Jadwalku – Beranda"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Tugas",
+      "short_name": "Tugas",
+      "url": "/index.html#tugas",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Jadwal Kuliah",
+      "short_name": "Kuliah",
+      "url": "/index.html#kuliah",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Jadwal Kerja",
+      "short_name": "Kerja",
+      "url": "/index.html#kerja",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "categories": ["education", "productivity", "utilities"]
+}
